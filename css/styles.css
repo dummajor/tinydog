@@ -172,11 +172,11 @@ Testimonial Section */
         font-size: 1.5rem;
     }
 
-    h1 {
-        font-size:2rem ;
+    .big-heading, .section-heading  {
+        font-size:1.7rem ;
     }
 
-    h2, h3 {
+    .price-text, .testimonial-text {
         font-size: 1.5rem;
     }
 
@@ -189,16 +189,14 @@ Testimonial Section */
     }
 }
         
-
-
 @media (min-width: 320px) and (max-width: 1024px) {
-    #title {
+    #title .container-fluid {
         text-align: center;
     }
     
-        .img-title {
-            position: static;
-            transform: rotate(0);
-        }
-        
+    .img-title {
+        position: static;
+        transform: rotate(0);
+    }
+  
 }
