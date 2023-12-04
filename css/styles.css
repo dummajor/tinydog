@@ -161,6 +161,36 @@ Testimonial Section */
     padding: 0 10px;
 }
 
+
+/* Media Queries */
+
+/* Mobile Phones */
+@media (min-width: 320px) and (max-width: 480px) {
+    h1, h2, h3 {
+        font-size: 1.5rem;
+    }
+
+    #pricing {
+        padding: 50px;
+    }
+
+
+   .card-body, h3, p {
+        font-size: 1rem;
+    }
+
+
+    #title {
+        text-align: center;
+    }
+    
+        .img-title {
+            position: static;
+            transform: rotate(0);
+        }
+        
+    }
+
 @media (max-width: 1028px) {
 #title {
     text-align: center;
