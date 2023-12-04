@@ -1,41 +1,47 @@
 body {
     font-family: 'Montserrat';
+    text-align: center;
 }
 
-
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-}
-
-.container-fluid {
-    padding: 3% 15% 7%;
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
-
-h2 {
+h1, h2, h3, h4 ,h5, h6 {
     font-family: 'Montserrat';
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.5;
-
-}
-
-h3 {
-    font-family: 'Montserrat';
-    font-size: 1rem;
     font-weight: bold;
 }
 
 p {
     color: #8f8f8f;
     font-size: 0.9rem;
+}
+/* Headings */
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+
+}
+
+.section-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.white-section {
+    background-color: #fff;
+
 }
 
 /* Navigation Bar */
@@ -66,6 +72,14 @@ p {
     margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15%;
+    text-align: left;
+}
+
+
 /* Title Image */
 .img-title {
     width: 60%;
@@ -76,16 +90,15 @@ p {
 /* Features Section */
 
 #features {
-    padding: 7% 15%;
-    background-color: #fff;
     position: relative;
-
-
 }
 
 .feature-box {
-    text-align: center;
     padding: 3%;
+}
+
+.feature-title {
+    font-size: 1rem;
 }
 
 .icon {
@@ -101,13 +114,7 @@ p {
 Testimonial Section */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
-    color: #fff;
-}
-
-.carousel-item {
-    padding: 7% 15%;
 }
 
 .testimonial-image {
@@ -116,9 +123,13 @@ Testimonial Section */
     margin: 20px;
 }
 
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 
 }
@@ -131,26 +142,17 @@ Testimonial Section */
 /* Pricing Section */
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
     padding: 3% 2%;
 }
 
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: center;
-    padding: 10%;
-    
-}
-
-#footer {
-    text-align: center;
-    padding: 3% 0 0;
-    
-}
 
 #footer p {
     font-size: 1.2rem;
