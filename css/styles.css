@@ -182,12 +182,14 @@ Testimonial Section */
         padding: 50px;
     }
 
-
    .card-body, h3, p {
         font-size: 1rem;
     }
+}
+        
 
 
+@media (min-width: 320px) and (max-width: 1024px) {
     #title {
         text-align: center;
     }
@@ -197,16 +199,4 @@ Testimonial Section */
             transform: rotate(0);
         }
         
-    }
-
-@media (max-width: 1028px) {
-#title {
-    text-align: center;
-}
-
-    .img-title {
-        position: static;
-        transform: rotate(0);
-    }
-    
 }
